@@ -23,6 +23,27 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
+  ## Table of Contents
+
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits & Acknowledgements](#credits)
+
+    ## Description
+    
+    
+    ## Installation
+    
+    
+    ## Usage
+    
+    
+    ## Credits
+    
+
 `;
 }
 
